@@ -81,10 +81,13 @@ const swiperSlider = new Swiper('.slider__swiper', {
             spaceBetween: 70,
         },
         992: {
-            slidesPerView: 2.2,
+            slidesPerView: 3,
         },
         768: {
-            slidesPerView: 1.5,
+            slidesPerView: 2.7,
+        },
+        480: {
+            slidesPerView: 1.7,
         }
     }
 });
