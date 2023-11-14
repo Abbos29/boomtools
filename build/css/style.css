@@ -222,7 +222,7 @@ h6 {
 section {
   padding: 60px 0;
   background-image: url(../img/noize.png);
-  background-size: contain;
+  background-size: cover;
 }
 
 body {
