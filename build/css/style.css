@@ -469,6 +469,26 @@ nav {
   left: 0;
 }
 
+.hero__subtitle {
+  color: #FFF;
+  font-family: "NEXT ART", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.hero__prebtn {
+  color: #E7D64D;
+  font-family: "NEXT ART", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px;
+  background: rgba(228, 210, 58, 0.05);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
 .hero__pretitle {
   font-size: clamp(1.125rem, 1.017rem + 0.46vw, 1.375rem);
   letter-spacing: -0.44px;
@@ -582,6 +602,31 @@ nav {
   background-position: right bottom;
   position: relative;
   overflow: visible;
+}
+
+.hero-3 {
+  padding-top: 200px;
+  background-image: url(../img/hero-3-bg.svg);
+  background-position: top -200px right;
+}
+
+.hero-3__img {
+  max-width: 490px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  background: rgba(13, 12, 18, 0.1);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .slider-1 {
@@ -1546,8 +1591,6 @@ nav {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.3px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .why__text {
@@ -1558,6 +1601,8 @@ nav {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.2px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .russia__wrapper {
@@ -1678,6 +1723,222 @@ nav {
   font-size: clamp(0.75rem, 0.617rem + 0.57vw, 1.063rem);
   font-weight: 400;
   letter-spacing: -0.2px;
+}
+
+.range {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px 0;
+}
+
+.range__title {
+  color: #E4D23A;
+  font-family: "NEXT ART", sans-serif;
+  font-size: clamp(1.25rem, 0.665rem + 2.53vw, 2.625rem);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+}
+
+.range__text {
+  color: #FFF;
+  font-size: clamp(0.875rem, 0.609rem + 1.15vw, 1.5rem);
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+.contact__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 30px;
+}
+
+.contact__item {
+  padding: 40px;
+  background: #151524;
+}
+
+.contact__title {
+  color: #FFF;
+  font-family: "NEXT ART", sans-serif;
+  font-size: clamp(1.5rem, 1.181rem + 1.38vw, 2.25rem);
+  font-weight: 600;
+  letter-spacing: -0.468px;
+}
+
+.contact__text {
+  padding-top: 16px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.208px;
+}
+
+.contact__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.contact__inner-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact__inner-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.232px;
+}
+
+.contact__need {
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contact__need-title {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.232px;
+  padding-bottom: 20px;
+}
+
+.contact__need-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.232px;
+}
+
+.contact__pretext {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact__pretext a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.contact-form {
+  max-width: 100%;
+  min-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+}
+
+.contact-form__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+input[type=text],
+textarea {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  padding: 12px;
+  color: #fff;
+  border: 1px solid rgba(230, 230, 230, 0.2);
+  background: #151524;
+  -webkit-box-shadow: 0px 1.5px 4px -1px rgba(10, 9, 11, 0.07);
+          box-shadow: 0px 1.5px 4px -1px rgba(10, 9, 11, 0.07);
+}
+
+input[type=text]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input[type=text]::-moz-placeholder, textarea::-moz-placeholder {
+  color: #fff;
+}
+
+input[type=text]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+input[type=text]::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+input[type=text]::placeholder,
+textarea::placeholder {
+  color: #fff;
+}
+
+input[type=text]:focus,
+textarea:focus {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+button[type=submit] {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 14px;
+  background-color: #E4D23A;
+  color: #0A090F;
+  font-family: "NEXT ART", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: -0.18px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #E4D23A;
+}
+
+button[type=submit]:hover {
+  color: #E4D23A;
+  background-color: #151524;
 }
 
 .footer {
@@ -2008,6 +2269,10 @@ nav {
     padding: 25px;
   }
 
+  .contact__wrapper {
+    grid-template-columns: 1fr;
+  }
+
   .footer__wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -2043,6 +2308,20 @@ nav {
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
             transform: scale(1);
+  }
+
+  .hero-3 {
+    padding-top: 100px;
+  }
+
+  .hero-3__img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .hero-3__img img {
+    max-width: 100%;
+    width: 100%;
   }
 
   .slider-1::after {
@@ -2092,6 +2371,10 @@ nav {
 
   .center__wrapper {
     grid-template-columns: 1fr;
+  }
+
+  .contact__item {
+    padding: 20px;
   }
 
   .footer__top-btn {
@@ -2238,6 +2521,27 @@ nav {
   .center__list-icon {
     width: 34px;
     height: 34px;
+  }
+
+  .contact__inner .icon {
+    display: none;
+  }
+
+  .contact__inner svg {
+    min-width: 20px;
+    min-height: 20px;
+  }
+
+  .contact__need {
+    display: none;
+  }
+
+  .contact-form__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .footer__inner {
