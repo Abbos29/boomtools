@@ -94,6 +94,7 @@ const swiperSlider = new Swiper('.slider__swiper', {
 
 
 
+
 // PRODUCT SWIPER
 
 const swiper1 = new Swiper(".mySwiper", {
@@ -188,3 +189,35 @@ function tabs(headerSelector, tabSelector, contentSelector, activeClass, display
 
 // Пример использования:
 tabs('.tabs__header', '.tabs__header-item', '.tabs__content-item', 'active');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const dropdowns = document.querySelectorAll('.dropdown');
+
+dropdowns.forEach(dropdown => {
+    const menu = dropdown.querySelector('.dropdown__menu');
+    let timeout;
+
+    dropdown.addEventListener('mouseenter', () => {
+        clearTimeout(timeout); 
+        menu.classList.add('dropdown-active');
+    });
+
+    dropdown.addEventListener('mouseleave', () => {
+        timeout = setTimeout(() => {
+            menu.classList.remove('dropdown-active');
+        }, 300);
+    });
+});
