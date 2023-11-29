@@ -99,6 +99,48 @@ window.addEventListener('scroll', fixedNav)
 
 // SWIPER
 
+function initializeSwiper(className, id) {
+    const sliders = document.querySelectorAll(className);
+
+    sliders.forEach(slider => {
+        new Swiper(slider, {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: `.swiper-button-next-${id}`,
+                prevEl: `.swiper-button-prev-${id}`,
+            },
+            centeredSlides: true,
+            grabCursor: true,
+            slidesPerView: 1.3,
+            spaceBetween: 30,
+            loop: true,
+            breakpoints: {
+                1450: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 70,
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+                768: {
+                    slidesPerView: 2.7,
+                },
+                480: {
+                    slidesPerView: 1.7,
+                },
+            },
+        });
+    });
+}
+
+initializeSwiper('.slider__swiper-1', 1);
+initializeSwiper('.slider__swiper-2', 2);
+initializeSwiper('.slider__swiper-3', 3);
+initializeSwiper('.slider__swiper-4', 4);
+initializeSwiper('.slider__swiper-5', 5);
+
 const swiperSlider = new Swiper('.slider__swiper', {
 
     pagination: {
