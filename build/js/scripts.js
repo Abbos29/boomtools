@@ -3,32 +3,32 @@
 // SCROLLREVEAL ANIMATION
 
 
-const scrollReveal = new ScrollReveal({
-    distance: '200px',
-    delay: 200, 
-    easing: 'cubic-bezier(0.25, 0.1, 0.25, 1.0)', 
-});
+// const scrollReveal = new ScrollReveal({
+//     distance: '200px',
+//     delay: 200, 
+//     easing: 'cubic-bezier(0.25, 0.1, 0.25, 1.0)', 
+// });
 
-scrollReveal.reveal('nav, .menu__item, .menu__soc-link, .menu__btn, .footer__item, .service__item, .product__title', {
-    origin: 'top',
-    interval: 100,
-});
+// scrollReveal.reveal('nav, .menu__item, .menu__soc-link, .menu__btn, .footer__item, .service__item, .product__title', {
+//     origin: 'top',
+//     interval: 100,
+// });
 
-scrollReveal.reveal('.container-max, footer, .about__item, .videos__item, .item-3, .russia__wrapper, .catalog__item-link', {
-    origin: 'bottom', 
-    interval: 300,
-});
+// scrollReveal.reveal('.container-max, footer, .about__item, .videos__item, .item-3, .russia__wrapper, .catalog__item-link', {
+//     origin: 'bottom', 
+//     interval: 300,
+// });
 
-scrollReveal.reveal('.hero__item, .slider__top-num, .section-title, .hero-2__item, .item-1, .why__wrapper .item-2, .center__item, .section-title-big, .hero__list-item, .center__list-item, .center__pretext, .product__slider', {
-    origin: 'left', 
-    delay: 1,
-    interval: 300,
-});
+// scrollReveal.reveal('.hero__item, .slider__top-num, .section-title, .hero-2__item, .item-1, .why__wrapper .item-2, .center__item, .section-title-big, .hero__list-item, .center__list-item, .center__pretext, .product__slider', {
+//     origin: 'left', 
+//     delay: 1,
+//     interval: 300,
+// });
 
-scrollReveal.reveal('.hero__img, .slider__top-btns, .hero-3__img, .hero-2__img, .item-4, .item-5, .center__map, .select, .product__content, .beard__item, .beard__icon, .beard__back, .beard__item, .beard__icon, .beard__back, .beard__wrapper', {
-    origin: 'right',
-    interval: 300,
-});
+// scrollReveal.reveal('.hero__img, .slider__top-btns, .hero-3__img, .hero-2__img, .item-4, .item-5, .center__map, .select, .product__content, .beard__item, .beard__icon, .beard__back, .beard__item, .beard__icon, .beard__back, .beard__wrapper', {
+//     origin: 'right',
+//     interval: 300,
+// });
 
 
 
@@ -118,7 +118,7 @@ function initializeSwiper(className, id) {
             loop: true,
             breakpoints: {
                 1450: {
-                    slidesPerView: 3.5,
+                    slidesPerView: 4.3,
                     spaceBetween: 70,
                 },
                 992: {
