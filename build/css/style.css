@@ -926,7 +926,6 @@ nav {
   background: #0D0C12;
   border: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
-  padding-top: 24px;
   z-index: 22;
   margin-top: 30px;
 }
@@ -966,7 +965,6 @@ nav {
 
 .slider__slide-img {
   padding: 22px;
-  padding-top: 0;
   max-width: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -2356,6 +2354,10 @@ button[type=submit]:hover {
 }
 
 @media (max-width: 1150px) {
+  .dropdown::after {
+    display: none;
+  }
+
   .logo {
     border-right: none;
   }
@@ -2513,6 +2515,10 @@ button[type=submit]:hover {
 @media (max-width: 991.98px) {
   .hero-2__img {
     display: none;
+  }
+
+  .slider__slide-img {
+    height: 330px;
   }
 
   .catalog__wrapper {
@@ -2712,6 +2718,11 @@ button[type=submit]:hover {
 
   .slider__slide::after {
     width: 140px;
+  }
+
+  .slider__slide-img {
+    height: 250px;
+    padding: 12px;
   }
 
   .slider__box {
