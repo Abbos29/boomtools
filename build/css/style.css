@@ -324,7 +324,7 @@ h6 {
 
 section {
   padding: 50px 0;
-  background-image: url(../img/noize.png);
+  background-image: url(../img/noize.webp);
   background-size: cover;
 }
 
@@ -748,7 +748,7 @@ nav {
   width: 60%;
   height: 400px;
   margin-left: auto;
-  background-image: url(../img/hero-2-bg.jpg);
+  background-image: url(../img/hero-2-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -829,7 +829,7 @@ nav {
   left: -200px;
   width: 600px;
   height: 500px;
-  background-image: url(..//img/slider-1-after.png);
+  background-image: url(..//img/slider-1-after.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -842,7 +842,7 @@ nav {
   right: -200px;
   width: 600px;
   height: 500px;
-  background-image: url(..//img/slider-1-before.png);
+  background-image: url(..//img/slider-1-before.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
