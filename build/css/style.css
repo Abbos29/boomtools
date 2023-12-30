@@ -307,6 +307,7 @@ h6 {
 
 .select .dropdown__menu {
   top: 60px;
+  right: 0;
   width: 100%;
   background: #151524;
 }
@@ -852,6 +853,15 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.slider {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.slider:last-child {
+  padding-bottom: 50px;
 }
 
 .slider__top {

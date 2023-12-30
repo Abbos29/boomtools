@@ -14,7 +14,7 @@ scrollReveal.reveal('nav, .menu__item, .menu__soc-link, .menu__btn, .footer__ite
     interval: 100,
 });
 
-scrollReveal.reveal('.container-max, footer, .about__item, .videos__item, .item-3, .russia__wrapper, .catalog__item-link', {
+scrollReveal.reveal('.container-max, footer, .about__item, .item-3, .russia__wrapper, .catalog__item-link', {
     origin: 'bottom', 
     interval: 300,
 });
